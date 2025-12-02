@@ -36,7 +36,7 @@
 | Dart        | Bahasa Pemrograman    | 3.10.1  |
 | Asset lokal | Gambar Resep dan Bahan| -       |
 | Hive        | Menyimpan data lokal  | 2.2.3   |
-| Iconsax     | Icon untuk UI Flutter | 0.0.8   |
+| Iconsax     | Icon                  | 0.0.8   |
 
 # STRUKTUR FOLDER 
 assets/
