@@ -30,12 +30,13 @@
 
 # TEKNOLOGI YANG DIGUNAKAN 
 
- | Teknologi   | Kegunaan               | Versi   |
-|------------|-----------------------|---------|
+| Teknologi    | Kegunaan               | Versi   |
+|-------------|-----------------------|---------|
 | Flutter SDK | Framework Utama       | 3.38.3  |
 | Dart        | Bahasa Pemrograman    | 3.10.1  |
 | Asset lokal | Gambar Resep dan Bahan| -       |
 | Hive        | Menyimpan data lokal  | 2.2.3   |
+| Iconsax     | Icon untuk UI Flutter | 0.0.8   |
 
 # STRUKTUR FOLDER 
 assets/
@@ -68,7 +69,7 @@ lib/
 │ ├── rencana_page.dart 
 │ ├── detail_resep_page.dart 
 │ ├── detail_resep_hive.dart 
-│ └── admin.dart (opsional) 
+│ └── admin.dart 
 │ 
 ├── widgets/ 
 │ ├── kategori.dart 
