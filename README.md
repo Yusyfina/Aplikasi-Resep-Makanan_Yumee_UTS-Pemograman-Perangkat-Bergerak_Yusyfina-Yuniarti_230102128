@@ -166,14 +166,14 @@ Penjelasan Struktur:
 2. resep_card.dart 
    •	Menampilkan detail resep seperti nama,rating,waktu memasak 
    •	Digunakan di banyak halaman 
-3.resep_list.dart 
+3. resep_list.dart 
   •	Menampilkan daftar resep 
   •	Data diambil dari Hive lalu difilter di kategori pencarian 
-4.search_field_home.dart 
+4. search_field_home.dart 
   Input pencarian pada halaman Home 
-5.tambahresep.dart 
+5. tambahresep.dart 
   Untuk halaman admin yang menambah, mengedit dan menghapus resep. 
-6.tombol_icon 
+6. tombol_icon 
   Membuat tombol icon 
 # Models 
 1. data_artikel.dart 
@@ -185,17 +185,17 @@ Penjelasan Struktur:
 # Services 
 1. data_artikel.dart 
    Data awal resep masakan 
-2.data_resep.dart 
-  Mengisi data awal ke dalam Hive. 
-3.hive_service.dart 
-  Helper untuk mengelola penyimpanan lokal menggunakan Hive yang menangani penyimpanan data resep dan daftar favorit. 
+2. data_resep.dart 
+   Mengisi data awal ke dalam Hive. 
+3. hive_service.dart 
+   Helper untuk mengelola penyimpanan lokal menggunakan Hive yang menangani penyimpanan data resep dan daftar favorit. 
 # theme 
-1.theme.dart 
-  Mengatur tema terang dan gelap. 
+1. theme.dart 
+   Mengatur tema terang dan gelap. 
 # utils 
-1.warna.dart 
-  Pallet aplikasi untuk semua halaman. 
-  Color Palette 
+1. warna.dart 
+   Pallet aplikasi untuk semua halaman. 
+   Color Palette 
     Primary: #FFB441 
     Secondary: #E29326 
     Background: #FFF0DB 
