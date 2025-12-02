@@ -13,8 +13,8 @@
 ## Fajar Winata S.Kom., M.T. 
 ## Rizky Kharisma N. E. P. S.Tr.Kom., M.T. 
 
-# GitHub: https://github.com/Yusyfina
-# Email : yusyfina@gmail.com
+## GitHub: https://github.com/Yusyfina
+## Email : yusyfina@gmail.com
 
 # DESKRIPSI
 
@@ -39,7 +39,7 @@
 
 # STRUKTUR FOLDER 
 assets/
-├── imagesa
+├── images
 lib/ 
 ├── main.dart 
 ├── boxes.dart 
@@ -83,37 +83,38 @@ lib/
 │ 
 └── utils/ 
 └── warna.dart 
-# Penjelasan Struktur
 
-## 1. assets/ 
-### image/ = gambar yang dibutuhkan untuk aplikasi 
+## Penjelasan Struktur
 
-## 2. models/ 
-### Berisi class resep 
+### 1. assets/ 
+#### image/ = gambar yang dibutuhkan untuk aplikasi 
 
-## 3. screens/ 
-### Halaman aplikasi 
+### 2. models/ 
+#### Berisi class resep 
 
-## 4. widgets/ 
-### Custom widget yang diambil di halaman 
+### 3. screens/ 
+#### Halaman aplikasi 
 
-## 5. services/ 
-### Penyimpanan data hive maupun hive yang menjalankan datanya 
+### 4. widgets/ 
+#### Custom widget yang diambil di halaman 
 
-## 6. theme/ 
-### Mode tampilannya menyesuaikan device 
+### 5. services/ 
+#### Penyimpanan data hive maupun hive yang menjalankan datanya 
 
-## 7. utils/ 
-### Menyimpan warna yang dipakai di aplikasi 
+### 6. theme/ 
+#### Mode tampilannya menyesuaikan device 
 
-## 8. boxes.dart
-### Pengaturan Hivenya 
+### 7. utils/ 
+#### Menyimpan warna yang dipakai di aplikasi 
 
-## 9. main.dart 
-### Entry point utama dan ada proses inisialisasi awal, setup database lokal (Hive), penambahan data resep default, serta pengaturan tema aplikasi.
+### 8. boxes.dart
+#### Pengaturan Hivenya 
 
-## 10. pubspec.yaml 
-### Asset dan dependencies aplikasi
+### 9. main.dart 
+#### Entry point utama dan ada proses inisialisasi awal, setup database lokal (Hive), penambahan data resep default, serta pengaturan tema aplikasi.
+
+### 10. pubspec.yaml 
+#### Asset dan dependencies aplikasi
 
 # LAYOUT
 
@@ -161,7 +162,6 @@ lib/
 
 ## 5. Layout Responsif
 
-### Digunakan untuk: 
 #### • MediaQuery 
 #### • LayoutBuilder
 
