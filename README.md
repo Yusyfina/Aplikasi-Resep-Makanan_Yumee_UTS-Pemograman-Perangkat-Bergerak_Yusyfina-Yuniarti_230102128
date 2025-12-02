@@ -95,25 +95,25 @@ lib/
 #### Berisi class resep 
 
 ### 3. screens/ 
-#### Halaman aplikasi 
+#### Halaman aplikasinya
 
 ### 4. widgets/ 
-#### Custom widget yang diambil di halaman 
+#### Custom widget yang nantinya diambil di bagian halaman 
 
 ### 5. services/ 
-#### Penyimpanan data hive maupun hive yang menjalankan datanya 
+#### Penyimpanan data hive dan berjalannya hive
 
 ### 6. theme/ 
 #### Mode tampilannya menyesuaikan device 
 
 ### 7. utils/ 
-#### Menyimpan warna yang dipakai di aplikasi 
+#### Menyimpan warna yang dipakai di aplikasi seperti primaryColor
 
 ### 8. boxes.dart
 #### Pengaturan Hivenya 
 
 ### 9. main.dart 
-#### Entry point utama dan ada proses inisialisasi awal, setup database lokal (Hive), penambahan data resep default, serta pengaturan tema aplikasi.
+#### Entry point utama dan ada proses inisialisasi awal, setup database lokal menggunakan Hive, penambahan data resep, dan pengaturan tema aplikasi.
 
 ### 10. pubspec.yaml 
 #### Asset dan dependencies aplikasi
@@ -136,8 +136,8 @@ lib/
 ## 2. Multi-Child Layout
 
 ### Digunakan untuk: 
-#### • Kategori (Row) 
-#### • List rekomendasi (Column) 
+#### • Kategori (Menggunakan Row) 
+#### • List rekomendasi (Menggunakan Column) 
 
 ### Widget: 
 #### • Row 
@@ -158,9 +158,9 @@ lib/
 ## 4. Scrollable Layout
 
 ### Digunakan untuk: 
-#### • List Resep (List View)
-#### • Layout grid (GridView)
-#### • Detail resep (SingleChildScrollView)
+#### • List Resep (Menggunakan List View)
+#### • Layout grid (Menggunakan GridView)
+#### • Detail resep (Menggunakan SingleChildScrollView)
 
 ## 5. Layout Responsif
 
