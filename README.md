@@ -24,6 +24,7 @@
 ### • Detail resep
 ### • Pencarian resep
 ### • Fitur favorit menggunakan Hive
+### • Baca Artikel Seputar Makanan
 ### • Penyimpanan lokal menggunakan Hive
 
 ## Aplikasi ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Pemrograman Perangkat Bergerak.
