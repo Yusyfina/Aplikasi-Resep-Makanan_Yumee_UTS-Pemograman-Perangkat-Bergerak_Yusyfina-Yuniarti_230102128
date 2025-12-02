@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567863769909",
+    "project_id": "projectfina-64c33",
+    "storage_bucket": "projectfina-64c33.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567863769909:android:c02724bdee345ad4a6ea7c",
+        "android_client_info": {
+          "package_name": "com.example.yumee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS5PXI0UlTadr7NZ_WgjW7S1C_xHLTV0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
