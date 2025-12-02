@@ -22,12 +22,12 @@ Email : yusyfina@gmail.com
   •	Penyimpanan lokal menggunakan Hive 
   Aplikasi ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Pemrograman Perangkat Bergerak. 
 # TEKNOLOGI YANG DIGUNAKAN 
-  | Teknologi   | Kegunaan              | Versi   |
-  |------------ |--------------------- -|---------|
-  | Flutter SDK | Framework Utama       | 3.38.3  |
-  | Dart        | Bahasa Pemrograman    | 3.10.1  |
-  | Asset lokal | Gambar Resep dan Bahan| -       |
-  | Hive        | Menyimpan data lokal  | 2.2.3   |
+ | Teknologi   | Kegunaan               | Versi   |
+|------------|-----------------------|---------|
+| Flutter SDK | Framework Utama       | 3.38.3  |
+| Dart        | Bahasa Pemrograman    | 3.10.1  |
+| Asset lokal | Gambar Resep dan Bahan| -       |
+| Hive        | Menyimpan data lokal  | 2.2.3   |
 
 # STRUKTUR FOLDER 
 assets/
