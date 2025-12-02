@@ -240,7 +240,7 @@ lib/
 ### 6. tombol_icon
 #### Membuat tombol icon
 
-# Models
+## Models
 
 ### 1. data_artikel.dart
 #### Menyimpan dan mengelola informasi resep.
@@ -251,7 +251,7 @@ lib/
 ### 3. resep.g.dart
 #### Generated code oleh Hive untuk mengubah data dan melakukan aktivitas yang dilakukan Hive dari data.
 
-# Services
+## Services
 
 ### 1. data_artikel.dart
 #### Data awal resep masakan
@@ -262,12 +262,12 @@ lib/
 ### 3. hive_service.dart
 #### Helper untuk mengelola penyimpanan lokal menggunakan Hive yang menangani penyimpanan data resep dan daftar favorit.
 
-# theme
+## theme
 
 ### 1. theme.dart
 #### Mengatur tema terang dan gelap.
 
-# utils
+## utils
 
 ### 1. warna.dart
 #### Pallet aplikasi untuk semua halaman.
@@ -277,56 +277,19 @@ lib/
 ##### Background: #FFF0DB
 
 
-## BADGES
-
-### ![Flutter](https://img.shields.io/badge/flutter-3.38.3-blue)
-### ![Dart](https://img.shields.io/badge/dart-3.10.1-blue)
-### ![License](https://img.shields.io/badge/license-MIT-green)
-
 ## INSTALASI
 
 ### 1. Clone repository
 git clone https://github.com/Yusyfina/Aplikasi-Resep-Makanan_Yumee.git
 
-shell
-Copy code
-
 ### 2. Masuk ke folder proyek
 cd Aplikasi-Resep-Makanan_Yumee
-
-shell
-Copy code
 
 ### 3. Install dependencies
 flutter pub get
 
-shell
-Copy code
-
 ### 4. Jalankan aplikasi
 flutter run
-
-shell
-Copy code
-
-## FITUR UTAMA
-
-### • Kategori Resep
-### • Detail Resep
-### • Pencarian Resep
-### • Favorit Resep menggunakan Provider & Hive
-### • Daftar Masakan Harian
-### • Artikel Masakan
-### • Mode terang & gelap
-
-## CARA PENGGUNAAN
-
-### 1. Buka aplikasi Yumee.
-### 2. Pilih kategori resep sesuai keinginan.
-### 3. Klik resep untuk melihat detail bahan, langkah, dan waktu masak.
-### 4. Tandai resep favorit untuk menyimpannya di Hive.
-### 5. Gunakan fitur pencarian untuk mencari resep tertentu.
-### 6. Tambahkan resep baru (opsional, untuk halaman admin).
 
 ## KONTRIBUSI
 
@@ -335,11 +298,6 @@ Copy code
 ### • Commit perubahan: `git commit -m "Tambah fitur xxx"`
 ### • Push ke branch: `git push origin fitur-xxx`
 ### • Buat pull request di GitHub.
-
-## LICENSE
-
-### MIT License.  
-### Lihat file [LICENSE](LICENSE) untuk detail.
 
 ## KONTAK
 
