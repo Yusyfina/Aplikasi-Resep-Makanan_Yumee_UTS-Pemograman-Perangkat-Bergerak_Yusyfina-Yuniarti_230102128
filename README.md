@@ -273,7 +273,6 @@ lib/
 #### Pallet aplikasi untuk semua halaman.
 #### Color Palette:
 ##### Primary: #FFB441
-##### Secondary: #E29326
 ##### Background: #FFF0DB
 
 
