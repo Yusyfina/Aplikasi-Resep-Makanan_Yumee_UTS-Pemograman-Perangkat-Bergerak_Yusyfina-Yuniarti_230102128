@@ -23,7 +23,7 @@
 ### • Kategori resep
 ### • Detail resep
 ### • Pencarian resep
-### • Fitur favorit menggunakan Provider
+### • Fitur favorit menggunakan Hive
 ### • Penyimpanan lokal menggunakan Hive
 
 ## Aplikasi ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Pemrograman Perangkat Bergerak.
