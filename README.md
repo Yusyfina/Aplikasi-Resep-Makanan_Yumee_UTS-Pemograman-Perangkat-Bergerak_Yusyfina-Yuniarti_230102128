@@ -275,3 +275,73 @@ lib/
 ##### Primary: #FFB441
 ##### Secondary: #E29326
 ##### Background: #FFF0DB
+
+
+## BADGES
+
+### ![Flutter](https://img.shields.io/badge/flutter-3.38.3-blue)
+### ![Dart](https://img.shields.io/badge/dart-3.10.1-blue)
+### ![License](https://img.shields.io/badge/license-MIT-green)
+
+## INSTALASI
+
+### 1. Clone repository
+git clone https://github.com/Yusyfina/Aplikasi-Resep-Makanan_Yumee.git
+
+shell
+Copy code
+
+### 2. Masuk ke folder proyek
+cd Aplikasi-Resep-Makanan_Yumee
+
+shell
+Copy code
+
+### 3. Install dependencies
+flutter pub get
+
+shell
+Copy code
+
+### 4. Jalankan aplikasi
+flutter run
+
+shell
+Copy code
+
+## FITUR UTAMA
+
+### • Kategori Resep
+### • Detail Resep
+### • Pencarian Resep
+### • Favorit Resep menggunakan Provider & Hive
+### • Daftar Masakan Harian
+### • Artikel Masakan
+### • Mode terang & gelap
+
+## CARA PENGGUNAAN
+
+### 1. Buka aplikasi Yumee.
+### 2. Pilih kategori resep sesuai keinginan.
+### 3. Klik resep untuk melihat detail bahan, langkah, dan waktu masak.
+### 4. Tandai resep favorit untuk menyimpannya di Hive.
+### 5. Gunakan fitur pencarian untuk mencari resep tertentu.
+### 6. Tambahkan resep baru (opsional, untuk halaman admin).
+
+## KONTRIBUSI
+
+### • Fork repository ini.
+### • Buat branch fitur baru: `git checkout -b fitur-xxx`
+### • Commit perubahan: `git commit -m "Tambah fitur xxx"`
+### • Push ke branch: `git push origin fitur-xxx`
+### • Buat pull request di GitHub.
+
+## LICENSE
+
+### MIT License.  
+### Lihat file [LICENSE](LICENSE) untuk detail.
+
+## KONTAK
+
+### • GitHub: [https://github.com/Yusyfina](https://github.com/Yusyfina)
+### • Email: yusyfina@gmail.com
