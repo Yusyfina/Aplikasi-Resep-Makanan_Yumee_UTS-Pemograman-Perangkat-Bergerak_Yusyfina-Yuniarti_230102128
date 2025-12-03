@@ -35,7 +35,7 @@
 |-------------|-----------------------|---------|
 | Flutter SDK | Framework Utama       | 3.38.3  |
 | Dart        | Bahasa Pemrograman    | 3.10.1  |
-| Asset lokal | Gambar Resep dan Bahan| -       |
+| Asset lokal | Gambar Resep,Bahan,logo, onboarding| -       |
 | Hive        | Menyimpan data lokal  | 2.2.3   |
 | Iconsax     | Icon                  | 0.0.8   |
 
