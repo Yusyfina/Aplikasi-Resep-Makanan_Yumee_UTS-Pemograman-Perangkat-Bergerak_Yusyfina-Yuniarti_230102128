@@ -98,7 +98,7 @@ lib/
 #### Halaman aplikasinya
 
 ### 4. widgets/ 
-#### Custom widget yang nantinya diambil di bagian halaman 
+#### Custom widget yang nantinya diambil untuk bagian halaman 
 
 ### 5. services/ 
 #### Penyimpanan data hive dan berjalannya hive
