@@ -1,306 +1,309 @@
-# Aplikasi-Resep-Makanan_Yumee_UTS-Pemograman-Perangkat-Bergerak_Yusyfina-Yuniarti_230102128
+## Deskripsi Aplikasi
 
-# LAPORAN 
+**Yumee** adalah aplikasi mobile berbasis **Flutter** yang digunakan untuk menampilkan berbagai resep makanan. Aplikasi ini dirancang dengan tampilan yang sederhana dan mudah digunakan, serta mendukung penyimpanan data secara lokal menggunakan **Hive**.
 
-# Aplikasi Yumee (Resep Makanan) 
+Aplikasi ini dibuat untuk memenuhi tugas **Ujian Tengah Semester (UTS)** mata kuliah **Pemrograman Perangkat Bergerak**.
 
-## Nama: Yusyfina Yuniarti 
-## NIM: 230102128 
-## Kelas: IF23B 
-## Mata Kuliah: Pemrograman Perangkat Bergerak 
+---
 
-# Dosen Pengampu: 
-## Fajar Winata S.Kom., M.T. 
-## Rizky Kharisma N. E. P. S.Tr.Kom., M.T. 
+## Fitur Aplikasi
 
-## GitHub: https://github.com/Yusyfina
-## Email : yusyfina@gmail.com
+* Kategori resep makanan
+* Detail resep (bahan dan langkah memasak)
+* Pencarian resep
+* Fitur favorit menggunakan Hive
+* Artikel seputar makanan
+* Penyimpanan data lokal menggunakan Hive
 
-# DESKRIPSI
+---
 
-## Yumee adalah aplikasi berbasis Flutter untuk menampilkan berbagai resep makanan yang dilengkapi dengan beberapa fitur seperti:
+## Teknologi yang Digunakan
 
-### • Kategori resep
-### • Detail resep
-### • Pencarian resep
-### • Fitur favorit menggunakan Hive
-### • Baca Artikel Seputar Makanan
-### • Penyimpanan lokal menggunakan Hive
+| Teknologi   | Kegunaan                 | Versi  |
+| ----------- | ------------------------ | ------ |
+| Flutter SDK | Framework utama          | 3.38.3 |
+| Dart        | Bahasa pemrograman       | 3.10.1 |
+| Hive        | Penyimpanan data lokal   | 2.2.3  |
+| Iconsax     | Icon aplikasi            | 0.0.8  |
+| Asset Lokal | Gambar, logo, onboarding | -      |
 
-## Aplikasi ini dibuat untuk memenuhi tugas Ujian Tengah Semester mata kuliah Pemrograman Perangkat Bergerak.
+---
 
-# TEKNOLOGI YANG DIGUNAKAN 
+## Struktur Folder
 
-| Teknologi    | Kegunaan               | Versi   |
-|-------------|-----------------------|---------|
-| Flutter SDK | Framework Utama       | 3.38.3  |
-| Dart        | Bahasa Pemrograman    | 3.10.1  |
-| Asset lokal | Gambar Resep,Bahan,logo,onboarding| -       |
-| Hive        | Menyimpan data lokal  | 2.2.3   |
-| Iconsax     | Icon                  | 0.0.8   |
-
-# STRUKTUR FOLDER 
+```
 assets/
-├── images
-lib/ 
-├── main.dart 
-├── boxes.dart 
-│ 
-├── models/ 
-│ ├── resep.dart 
-│ ├── resep.g.dart 
-│ └── data_artikel.dart 
-│ 
-├── services/ 
-│ ├── hive_service.dart 
-│ ├── data_resep.dart 
-│ └── data_artikel.dart 
-│ 
-├── screens/ 
-│ ├── splashscreen.dart 
-│ ├── onboarding.dart 
-│ ├── home_page.dart 
-│ ├── detail_page.dart 
-│ ├── searchPage.dart 
-│ ├── favoritPage.dart 
-│ ├── artikel_page.dart 
-│ ├── artikel_detail.dart 
-│ ├── semua_resep.dart 
-│ ├── navigasi.dart 
-│ ├── rencana_page.dart 
-│ ├── detail_resep_page.dart 
-│ ├── detail_resep_hive.dart 
-│ └── admin.dart 
-│ 
-├── widgets/ 
-│ ├── kategori.dart 
-│ ├── resep_card.dart 
-│ ├── resep_list.dart 
-│ ├── search_field_home.dart 
-│ ├── tombol_icon.dart 
-│ └── tambahresep.dart 
-│ 
-├── theme/ 
-│ └── theme.dart 
-│ 
-└── utils/ 
-└── warna.dart 
+└── images/
 
-## Penjelasan Struktur
+lib/
+├── main.dart
+├── boxes.dart
+├── models/
+│   ├── resep.dart
+│   ├── resep.g.dart
+│   └── data_artikel.dart
+├── services/
+│   ├── hive_service.dart
+│   ├── data_resep.dart
+│   └── data_artikel.dart
+├── screens/
+│   ├── splashscreen.dart
+│   ├── onboarding.dart
+│   ├── home_page.dart
+│   ├── detail_page.dart
+│   ├── searchPage.dart
+│   ├── favoritPage.dart
+│   ├── artikel_page.dart
+│   ├── artikel_detail.dart
+│   ├── semua_resep.dart
+│   ├── navigasi.dart
+│   ├── rencana_page.dart
+│   ├── detail_resep_page.dart
+│   ├── detail_resep_hive.dart
+│   └── admin.dart
+├── widgets/
+│   ├── kategori.dart
+│   ├── resep_card.dart
+│   ├── resep_list.dart
+│   ├── search_field_home.dart
+│   ├── tombol_icon.dart
+│   └── tambahresep.dart
+├── theme/
+│   └── theme.dart
+└── utils/
+    └── warna.dart
+```
 
-### 1. assets/ 
-#### image/ = gambar yang dibutuhkan untuk aplikasi 
+---
 
-### 2. models/ 
-#### Berisi class resep 
+## Penjelasan Struktur Folder
 
-### 3. screens/ 
-#### Halaman aplikasinya
+### assets
 
-### 4. widgets/ 
-#### Custom widget yang nantinya diambil untuk bagian halaman 
+Menyimpan seluruh aset gambar yang digunakan pada aplikasi.
 
-### 5. services/ 
-#### Penyimpanan data hive dan berjalannya hive
+### models
 
-### 6. theme/ 
-#### Mode tampilannya menyesuaikan device 
+Berisi model data aplikasi seperti resep dan artikel.
 
-### 7. utils/ 
-#### Menyimpan warna yang dipakai di aplikasi seperti primaryColor
+### screens
 
-### 8. boxes.dart
-#### Pengaturan Hivenya 
+Berisi seluruh halaman utama aplikasi.
 
-### 9. main.dart 
-#### Entry point utama dan ada proses inisialisasi awal, setup database lokal menggunakan Hive, penambahan data resep, dan pengaturan tema aplikasi.
+### widgets
 
-### 10. pubspec.yaml 
-#### Asset dan dependencies aplikasi
+Berisi custom widget yang digunakan kembali di berbagai halaman.
 
-# LAYOUT
+### services
 
-## 1. Single Child Layout
+Mengatur penyimpanan dan pengelolaan data menggunakan Hive.
 
-### Digunakan untuk: 
-#### • Splashscreen 
-#### • Header Home 
-#### • Banner rekomendasi 
+### theme
 
-### Widget yang digunakan: 
-#### • Container 
-#### • Padding 
-#### • Center 
-#### • Align 
+Mengatur tema aplikasi (light dan dark mode).
 
-## 2. Multi-Child Layout
+### utils
 
-### Digunakan untuk: 
-#### • Kategori (Menggunakan Row) 
-#### • List rekomendasi (Menggunakan Column) 
+Menyimpan utilitas seperti warna aplikasi.
 
-### Widget: 
-#### • Row 
-#### • Column 
-#### • Expanded 
-#### • Spacer 
+### boxes.dart
 
-## 3. Layout Bersusun
+Pengaturan Hive Box.
 
-### Dipakai untuk: 
-#### • DetailPage 
-#### • Card kategori yang memiliki overlay gambar 
+### main.dart
 
-### Widget: 
-#### • Stack 
-#### • Positioned
+Entry point aplikasi dan proses inisialisasi awal.
 
-## 4. Scrollable Layout
+### pubspec.yaml
 
-### Digunakan untuk: 
-#### • List Resep (Menggunakan List View)
-#### • Layout grid (Menggunakan GridView)
-#### • Detail resep (Menggunakan SingleChildScrollView)
+Konfigurasi dependencies dan asset aplikasi.
 
-## 5. Layout Responsif
+---
 
-#### • MediaQuery 
-#### • LayoutBuilder
+## Layout yang Digunakan
 
-# HALAMAN
+### Single Child Layout
 
-## Screens
+Digunakan pada:
 
-### 1. home_page.dart
-#### • Header aplikasi
-#### • Kategori resep
-#### • Rekomendasi resep
-#### • Navigasi ke detail resep
-#### • Tombol menuju Search dan Favorit
+* Splashscreen
+* Header Home
+* Banner rekomendasi
 
-### 2. detail_page.dart
-#### Menampilkan detail resep dari mulai bahan sampai langkahnya.
+Widget:
 
-### 3. favorit.dart
-#### • Menampilkan resep yang difavoritkan pengguna
-#### • Menggunakan Provider dan Hive
+* Container
+* Padding
+* Center
+* Align
 
-### 4. admin.dart
-#### • Halaman untuk menambahkan, mengedit, dan menghapus resep dalam aplikasi yang terhubung dengan Hive Database sehingga resep tersimpan.
-#### • Pengguna bisa menambahkan data resep seperti nama resep, bahan, langkah, kalori, waktu masak dan kategori.
+### Multi Child Layout
 
-### 5. artikel_detail.dart
-#### • Menampilkan detail isi artikel yaitu gambar, judul dan isi informasinya.
-#### • Memungkinkan overlay tombol back di atas gambar.
+Digunakan pada:
 
-### 6. artikel_page.dart
-#### • Menampikan data artikel dalam bentuk grid dan bisa di klik untuk melihat detailnya yang terhubung dengan artikel detail.
-#### • AppBar menggunakan warna tema
+* Kategori resep (Row)
+* List rekomendasi (Column)
 
-### 7. detail_resep_page.dart
-#### Menampilkan detail resep seperti bahan dan langkah.
+Widget:
 
-### 8. detail_resep_hive.dart
-#### Mengambil data resep dari hive
+* Row
+* Column
+* Expanded
+* Spacer
 
-### 9. navigasi.dart
-#### Halaman root yang mengatur Tampilan 4 Tab yaitu home, favorit, rencana, artikel
+### Layout Bersusun
 
-### 10. onboarding.dart
-#### • Tampilan awal aplikasi Yumee sebelum pengguna masuk ke halaman utama yang disimpan menggunakan SharedPreferences jadi muncul sekali.
-#### • Menampilkan page view 3 halaman yaitu gambar full screen dan menampilkan judul dan deskripsi
+Digunakan pada:
 
-### 11. rencana_page.dart
-#### Halaman untuk membuat daftar masakan, pengguna bisa menambah, melihat dan menghapus daftar rencana.
+* Detail Page
+* Card kategori dengan overlay gambar
 
-### 12. semua_resep.dart
-#### • Menampilkan seluruh daftar resep berdasar pencarian kategori
-#### • Bisa menambahkan favorit yang tersimpan di halaman favorit karena disimpan di favBox Hive.
+Widget:
 
-### 13. splashscreen.dart
-#### Halaman awal sebelum diarahkan ke onboarding.
+* Stack
+* Positioned
+
+### Scrollable Layout
+
+Digunakan pada:
+
+* ListView
+* GridView
+* SingleChildScrollView
+
+### Layout Responsif
+
+* MediaQuery
+* LayoutBuilder
+
+---
+
+## Halaman Aplikasi
+
+### home_page.dart
+
+Menampilkan header, kategori resep, rekomendasi, dan navigasi.
+
+### detail_page.dart
+
+Menampilkan detail bahan dan langkah memasak.
+
+### favorit_page.dart
+
+Menampilkan resep favorit menggunakan Hive.
+
+### admin.dart
+
+Halaman CRUD resep yang terhubung dengan Hive.
+
+### artikel_page.dart
+
+Menampilkan daftar artikel dalam bentuk grid.
+
+### artikel_detail.dart
+
+Menampilkan detail artikel.
+
+### navigasi.dart
+
+Root halaman dengan empat tab navigasi.
+
+### onboarding.dart
+
+Tampilan awal aplikasi yang muncul satu kali.
+
+### rencana_page.dart
+
+Halaman daftar rencana masakan.
+
+### semua_resep.dart
+
+Menampilkan seluruh resep berdasarkan kategori.
+
+### splashscreen.dart
+
+Tampilan awal sebelum onboarding.
+
+---
 
 ## Widget
 
-### 1. kategori.dart
-#### Menampilkan kategori resep yaitu all, Makan Pagi, Makan Siang, Makan Malam
+### kategori.dart
 
-### 2. resep_card.dart
-#### • Menampilkan detail resep seperti nama, rating, waktu memasak
-#### • Digunakan di banyak halaman
+Menampilkan kategori resep.
 
-### 3. resep_list.dart
-#### • Menampilkan daftar resep
-#### • Data diambil dari Hive lalu difilter di kategori pencarian
+### resep_card.dart
 
-### 4. search_field_home.dart
-#### Input pencarian pada halaman Home
+Menampilkan informasi resep seperti nama, waktu masak, dan rating.
 
-### 5. tambahresep.dart
-#### Untuk halaman admin yang menambah, mengedit dan menghapus resep.
+### resep_list.dart
 
-### 6. tombol_icon
-#### Membuat tombol icon
+Menampilkan daftar resep berdasarkan kategori.
+
+### search_field_home.dart
+
+Input pencarian pada halaman Home.
+
+### tambahresep.dart
+
+Halaman CRUD resep.
+
+### tombol_icon.dart
+
+Widget tombol icon custom.
+
+---
 
 ## Models
 
-### 1. data_artikel.dart
-#### Menyimpan dan mengelola informasi resep.
+### resep.dart
 
-### 2. resep.dart
-#### Menyimpan data resep makanan secara offline menggunakan Hive.
+Model data resep makanan.
 
-### 3. resep.g.dart
-#### Generated code oleh Hive untuk mengubah data dan melakukan aktivitas yang dilakukan Hive dari data.
+### resep.g.dart
+
+File hasil generate Hive.
+
+### data_artikel.dart
+
+Model data artikel.
+
+---
 
 ## Services
 
-### 1. data_artikel.dart
-#### Data awal resep masakan
+### data_resep.dart
 
-### 2. data_resep.dart
-#### Mengisi data awal ke dalam Hive.
+Mengisi data awal resep ke Hive.
 
-### 3. hive_service.dart
-#### Helper untuk mengelola penyimpanan lokal menggunakan Hive yang menangani penyimpanan data resep dan daftar favorit.
+### data_artikel.dart
 
-## theme
+Data artikel aplikasi.
 
-### 1. theme.dart
-#### Mengatur tema terang dan gelap.
+### hive_service.dart
 
-## utils
+Helper pengelolaan penyimpanan lokal Hive.
 
-### 1. warna.dart
-#### Pallet aplikasi untuk semua halaman.
-#### Color Palette:
-##### Primary: #FFB441
-##### Background: #FFF0DB
+---
 
+## Theme dan Utils
 
-## INSTALASI
+### theme.dart
 
-### 1. Clone repository
-git clone https://github.com/Yusyfina/Aplikasi-Resep-Makanan_Yumee.git
+Mengatur tema terang dan gelap aplikasi.
 
-### 2. Masuk ke folder proyek
-cd Aplikasi-Resep-Makanan_Yumee
+### warna.dart
 
-### 3. Install dependencies
-flutter pub get
+Palet warna aplikasi.
 
-### 4. Jalankan aplikasi
-flutter run
+**Color Palette**
 
-## KONTRIBUSI
+* Primary : `#FFB441`
+* Background : `#FFF0DB`
 
-### • Fork repository ini.
-### • Buat branch fitur baru: `git checkout -b fitur-xxx`
-### • Commit perubahan: `git commit -m "Tambah fitur xxx"`
-### • Push ke branch: `git push origin fitur-xxx`
-### • Buat pull request di GitHub.
+---
 
-## KONTAK
+## Kontak
 
-### • GitHub: [https://github.com/Yusyfina](https://github.com/Yusyfina)
-### • Email: yusyfina@gmail.com
+* **GitHub** : [https://github.com/Yusyfina](https://github.com/Yusyfina)
+* **Email** : [yusyfina@gmail.com]
